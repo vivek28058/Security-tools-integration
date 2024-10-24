@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github', url: 'https://github.com/username/your-repository-name.git'
+                git branch: 'main', credentialsId: 'github', url: 'https://github.com/vivek28058/Security-tools-integration.git'
             }
         }
  
